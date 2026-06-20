@@ -1,0 +1,55 @@
+# Unity generated folders
+/Library/
+/Temp/
+/Obj/
+/Build/
+/Builds/
+/Logs/
+/UserSettings/
+/MemoryCaptures/
+
+# Unity generated files
+*.csproj
+*.sln
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Unity crash/debug artifacts
+sysinfo.txt
+*.stackdump
+
+# Visual Studio / Rider
+.vs/
+.idea/
+.vscode/
+*.suo
+*.tmp
+*.log
+
+# Cursor/local agent files
+.cursor/
+mcp_err.txt
+mcp_out.txt
+agent-transcripts/
+Packages/com.ivanmurzak.unity.mcp/Server/bin~/Release/net9.0/win-x64/logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Builds exported outside the repo should not be committed.
+*.apk
+*.aab
+*.unitypackage
+
+# Word lock files
+~$*.docx
+~$*.doc

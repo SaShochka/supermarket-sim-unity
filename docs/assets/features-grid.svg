@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" role="img" aria-label="Features">
+  <rect width="1200" height="520" rx="24" fill="#030712"/>
+  <text x="48" y="52" fill="#f9fafb" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="800">Project features</text>
+  <rect x="48" y="80" width="350" height="170" rx="22" fill="#312e81"/>
+  <text x="72" y="125" fill="#fff" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="800">Computer terminal</text>
+  <text x="72" y="155" fill="#ddd6fe" font-family="Segoe UI, Arial, sans-serif" font-size="14">Orders and NPC hire</text>
+  <rect x="425" y="80" width="350" height="170" rx="22" fill="#164e63"/>
+  <text x="449" y="125" fill="#fff" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="800">Inventory</text>
+  <text x="449" y="155" fill="#cffafe" font-family="Segoe UI, Arial, sans-serif" font-size="14">Carry boxes, shelf placement</text>
+  <rect x="802" y="80" width="350" height="170" rx="22" fill="#14532d"/>
+  <text x="826" y="125" fill="#fff" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="800">Customer NPC</text>
+  <text x="826" y="155" fill="#dcfce7" font-family="Segoe UI, Arial, sans-serif" font-size="14">NavMesh shopping AI</text>
+  <rect x="48" y="280" width="350" height="170" rx="22" fill="#7c2d12"/>
+  <text x="72" y="325" fill="#fff" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="800">Checkout</text>
+  <text x="72" y="355" fill="#ffedd5" font-family="Segoe UI, Arial, sans-serif" font-size="14">Manual and auto scan</text>
+  <rect x="425" y="280" width="350" height="170" rx="22" fill="#4c1d95"/>
+  <text x="449" y="325" fill="#fff" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="800">City and store</text>
+  <text x="449" y="355" fill="#ede9fe" font-family="Segoe UI, Arial, sans-serif" font-size="14">Procedural scene build</text>
+  <rect x="802" y="280" width="350" height="170" rx="22" fill="#1e3a8a"/>
+  <text x="826" y="325" fill="#fff" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="800">PostgreSQL</text>
+  <text x="826" y="355" fill="#dbeafe" font-family="Segoe UI, Arial, sans-serif" font-size="14">3 logical databases</text>
+</svg>

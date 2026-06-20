@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 340" role="img" aria-label="PostgreSQL databases">
+  <defs>
+    <marker id="a" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#94a3b8"/>
+    </marker>
+  </defs>
+  <rect width="1000" height="340" rx="24" fill="#0f172a"/>
+  <text x="40" y="48" fill="#f8fafc" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="800">PostgreSQL - 3 databases</text>
+  <rect x="40" y="80" width="280" height="220" rx="22" fill="#1d4ed8"/>
+  <text x="180" y="125" text-anchor="middle" fill="#fff" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="800">merch_catalog</text>
+  <text x="60" y="170" fill="#e0f2fe" font-family="Segoe UI, Arial, sans-serif" font-size="13">products</text>
+  <text x="60" y="195" fill="#e0f2fe" font-family="Segoe UI, Arial, sans-serif" font-size="13">equipment</text>
+  <text x="60" y="220" fill="#e0f2fe" font-family="Segoe UI, Arial, sans-serif" font-size="13">price_rules</text>
+  <rect x="360" y="80" width="280" height="220" rx="22" fill="#047857"/>
+  <text x="500" y="125" text-anchor="middle" fill="#fff" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="800">merch_store</text>
+  <text x="380" y="170" fill="#ecfdf5" font-family="Segoe UI, Arial, sans-serif" font-size="13">player_profiles</text>
+  <text x="380" y="195" fill="#ecfdf5" font-family="Segoe UI, Arial, sans-serif" font-size="13">store_saves</text>
+  <text x="380" y="220" fill="#ecfdf5" font-family="Segoe UI, Arial, sans-serif" font-size="13">placed_equipment</text>
+  <rect x="680" y="80" width="280" height="220" rx="22" fill="#b45309"/>
+  <text x="820" y="125" text-anchor="middle" fill="#fff" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="800">merch_sales</text>
+  <text x="700" y="170" fill="#fffbeb" font-family="Segoe UI, Arial, sans-serif" font-size="13">sales</text>
+  <text x="700" y="195" fill="#fffbeb" font-family="Segoe UI, Arial, sans-serif" font-size="13">customer_events</text>
+  <text x="700" y="220" fill="#fffbeb" font-family="Segoe UI, Arial, sans-serif" font-size="13">wallet_events</text>
+  <path d="M320 190 H360" stroke="#94a3b8" stroke-width="3" marker-end="url(#a)"/>
+  <path d="M640 190 H680" stroke="#94a3b8" stroke-width="3" marker-end="url(#a)"/>
+</svg>

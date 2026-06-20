@@ -1,0 +1,1173 @@
+{
+  "dependencies": {
+    "com.boxqkrtm.ide.cursor": {
+      "version": "https://github.com/boxqkrtm/com.unity.ide.cursor.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.unity.test-framework": "1.1.9"
+      },
+      "hash": "fd8ff1fb700caf062eb5cce364c1d0a85f99ebe6"
+    },
+    "com.ivanmurzak.unity.mcp": {
+      "version": "file:com.ivanmurzak.unity.mcp",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {
+        "com.unity.test-framework": "1.1.33",
+        "com.unity.modules.uielements": "1.0.0",
+        "org.nuget.microsoft.bcl.memory": "9.0.4",
+        "org.nuget.microsoft.aspnetcore.signalr.client": "9.0.4",
+        "org.nuget.microsoft.aspnetcore.signalr.protocols.json": "9.0.4",
+        "org.nuget.microsoft.codeanalysis.csharp": "4.13.0",
+        "org.nuget.microsoft.extensions.caching.abstractions": "9.0.4",
+        "org.nuget.microsoft.extensions.dependencyinjection.abstractions": "9.0.4",
+        "org.nuget.microsoft.extensions.hosting": "9.0.4",
+        "org.nuget.microsoft.extensions.hosting.abstractions": "9.0.4",
+        "org.nuget.microsoft.extensions.logging.abstractions": "9.0.4",
+        "org.nuget.r3": "1.3.0",
+        "org.nuget.system.text.json": "9.0.4"
+      }
+    },
+    "com.unity.ai.navigation": {
+      "version": "2.0.6",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.modules.ai": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.burst": {
+      "version": "1.8.29",
+      "depth": 2,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.mathematics": "1.2.1",
+        "com.unity.modules.jsonserialize": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.collab-proxy": {
+      "version": "2.12.4",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.collections": {
+      "version": "6.4.0",
+      "depth": 2,
+      "source": "builtin",
+      "dependencies": {
+        "com.unity.burst": "1.8.23",
+        "com.unity.mathematics": "1.3.2",
+        "com.unity.nuget.mono-cecil": "1.11.5",
+        "com.unity.test-framework": "1.4.6",
+        "com.unity.test-framework.performance": "3.0.3"
+      }
+    },
+    "com.unity.editorcoroutines": {
+      "version": "1.1.0",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.ext.nunit": {
+      "version": "2.0.5",
+      "depth": 2,
+      "source": "builtin",
+      "dependencies": {}
+    },
+    "com.unity.feature.development": {
+      "version": "1.0.2",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {
+        "com.unity.ide.visualstudio": "2.0.27",
+        "com.unity.ide.rider": "3.0.40",
+        "com.unity.editorcoroutines": "1.1.0",
+        "com.unity.performance.profile-analyzer": "1.3.4",
+        "com.unity.test-framework": "1.6.0",
+        "com.unity.testtools.codecoverage": "1.3.0"
+      }
+    },
+    "com.unity.ide.rider": {
+      "version": "3.0.40",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.ext.nunit": "1.0.6"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.ide.visualstudio": {
+      "version": "2.0.27",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.test-framework": "1.1.33"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.inputsystem": {
+      "version": "1.19.0",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.modules.uielements": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.mathematics": {
+      "version": "1.3.3",
+      "depth": 2,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.multiplayer.center": {
+      "version": "1.0.1",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {
+        "com.unity.modules.uielements": "1.0.0"
+      }
+    },
+    "com.unity.nuget.mono-cecil": {
+      "version": "1.11.6",
+      "depth": 3,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.performance.profile-analyzer": {
+      "version": "1.3.4",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.render-pipelines.core": {
+      "version": "17.4.0",
+      "depth": 1,
+      "source": "builtin",
+      "dependencies": {
+        "com.unity.burst": "1.8.14",
+        "com.unity.mathematics": "1.3.2",
+        "com.unity.ugui": "2.0.0",
+        "com.unity.collections": "2.4.3",
+        "com.unity.modules.terrain": "1.0.0",
+        "com.unity.modules.jsonserialize": "1.0.0"
+      }
+    },
+    "com.unity.render-pipelines.high-definition": {
+      "version": "17.4.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {
+        "com.unity.modules.video": "1.0.0",
+        "com.unity.modules.animation": "1.0.0",
+        "com.unity.modules.imageconversion": "1.0.0",
+        "com.unity.modules.physics": "1.0.0",
+        "com.unity.render-pipelines.core": "17.4.0",
+        "com.unity.shadergraph": "17.4.0",
+        "com.unity.visualeffectgraph": "17.4.0",
+        "com.unity.render-pipelines.high-definition-config": "17.4.0"
+      }
+    },
+    "com.unity.render-pipelines.high-definition-config": {
+      "version": "17.4.0",
+      "depth": 1,
+      "source": "builtin",
+      "dependencies": {
+        "com.unity.render-pipelines.core": "17.4.0"
+      }
+    },
+    "com.unity.searcher": {
+      "version": "4.9.4",
+      "depth": 2,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.settings-manager": {
+      "version": "2.1.1",
+      "depth": 2,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.shadergraph": {
+      "version": "17.4.0",
+      "depth": 1,
+      "source": "builtin",
+      "dependencies": {
+        "com.unity.render-pipelines.core": "17.4.0",
+        "com.unity.searcher": "4.9.3"
+      }
+    },
+    "com.unity.test-framework": {
+      "version": "1.6.0",
+      "depth": 1,
+      "source": "builtin",
+      "dependencies": {
+        "com.unity.ext.nunit": "2.0.3",
+        "com.unity.modules.imgui": "1.0.0",
+        "com.unity.modules.jsonserialize": "1.0.0"
+      }
+    },
+    "com.unity.test-framework.performance": {
+      "version": "3.4.0",
+      "depth": 3,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.test-framework": "1.1.33",
+        "com.unity.modules.jsonserialize": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.testtools.codecoverage": {
+      "version": "1.3.0",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.test-framework": "1.4.5",
+        "com.unity.settings-manager": "2.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.timeline": {
+      "version": "1.8.12",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.modules.audio": "1.0.0",
+        "com.unity.modules.director": "1.0.0",
+        "com.unity.modules.animation": "1.0.0",
+        "com.unity.modules.particlesystem": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.ugui": {
+      "version": "2.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {
+        "com.unity.modules.ui": "1.0.0",
+        "com.unity.modules.imgui": "1.0.0"
+      }
+    },
+    "com.unity.visualeffectgraph": {
+      "version": "17.4.0",
+      "depth": 1,
+      "source": "builtin",
+      "dependencies": {
+        "com.unity.shadergraph": "17.4.0",
+        "com.unity.render-pipelines.core": "17.4.0"
+      }
+    },
+    "com.unity.visualscripting": {
+      "version": "1.9.11",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.ugui": "1.0.0",
+        "com.unity.modules.jsonserialize": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "org.nuget.microsoft.aspnetcore.connections.abstractions": {
+      "version": "file:org.nuget.microsoft.aspnetcore.connections.abstractions-9.0.4.tgz",
+      "depth": 0,
+      "source": "local-tarball",
+      "dependencies": {
+        "org.nuget.microsoft.extensions.features": "9.0.4",
+        "org.nuget.microsoft.bcl.asyncinterfaces": "9.0.4",
+        "org.nuget.system.io.pipelines": "9.0.4"
+      }
+    },
+    "org.nuget.microsoft.aspnetcore.http.connections.client": {
+      "version": "file:org.nuget.microsoft.aspnetcore.http.connections.client-9.0.4.tgz",
+      "depth": 0,
+      "source": "local-tarball",
+      "dependencies": {
+        "org.nuget.microsoft.aspnetcore.http.connections.common": "9.0.4",
+        "org.nuget.microsoft.extensions.logging.abstractions": "9.0.4",
+        "org.nuget.microsoft.extensions.options": "9.0.4",
+        "org.nuget.system.net.serversentevents": "9.0.4"
+      }
+    },
+    "org.nuget.microsoft.aspnetcore.http.connections.common": {
+      "version": "file:org.nuget.microsoft.aspnetcore.http.connections.common-9.0.4.tgz",
+      "depth": 0,
+      "source": "local-tarball",
+      "dependencies": {
+        "org.nuget.microsoft.aspnetcore.connections.abstractions": "9.0.4",
+        "org.nuget.system.text.json": "9.0.4"
+      }
+    },
+    "org.nuget.microsoft.aspnetcore.signalr.client": {
+      "version": "file:org.nuget.microsoft.aspnetcore.signalr.client-9.0.4.tgz",
+      "depth": 0,
+      "source": "local-tarball",
+      "dependencies": {
+        "org.nuget.microsoft.aspnetcore.signalr.client.core": "9.0.4",
+        "org.nuget.microsoft.aspnetcore.http.connections.client": "9.0.4"
+      }
+    },
+    "org.nuget.microsoft.aspnetcore.signalr.client.core": {
+      "version": "file:org.nuget.microsoft.aspnetcore.signalr.client.core-9.0.4.tgz",
+      "depth": 0,
+      "source": "local-tarball",
+      "dependencies": {
+        "org.nuget.microsoft.aspnetcore.signalr.protocols.json": "9.0.4",
+        "org.nuget.microsoft.aspnetcore.signalr.common": "9.0.4",
+        "org.nuget.microsoft.bcl.timeprovider": "9.0.4",
+        "org.nuget.microsoft.extensions.dependencyinjection": "9.0.4",
+        "org.nuget.microsoft.extensions.logging": "9.0.4",
+        "org.nuget.system.threading.channels": "9.0.4"
+      }
+    },
+    "org.nuget.microsoft.aspnetcore.signalr.common": {
+      "version": "file:org.nuget.microsoft.aspnetcore.signalr.common-9.0.4.tgz",
+      "depth": 0,
+      "source": "local-tarball",
+      "dependencies": {
+        "org.nuget.microsoft.aspnetcore.connections.abstractions": "9.0.4",
+        "org.nuget.microsoft.extensions.options": "9.0.4",
+        "org.nuget.system.text.json": "9.0.4"
+      }
+    },
+    "org.nuget.microsoft.aspnetcore.signalr.protocols.json": {
+      "version": "file:org.nuget.microsoft.aspnetcore.signalr.protocols.json-9.0.4.tgz",
+      "depth": 0,
+      "source": "local-tarball",
+      "dependencies": {
+        "org.nuget.microsoft.aspnetcore.signalr.common": "9.0.4"
+      }
+    },
+    "org.nuget.microsoft.bcl.asyncinterfaces": {
+      "version": "file:org.nuget.microsoft.bcl.asyncinterfaces-9.0.4.tgz",
+      "depth": 0,
+      "source": "local-tarball",
+      "dependencies": {
+        "org.nuget.system.threading.tasks.extensions": "4.5.4"
+      }
+    },
+    "org.nuget.microsoft.bcl.memory": {
+      "version": "file:org.nuget.microsoft.bcl.memory-9.0.4.tgz",
+      "depth": 0,
+      "source": "local-tarball",
+      "dependencies": {
+        "org.nuget.system.memory": "4.5.5",
+        "org.nuget.system.runtime.compilerservices.unsafe": "6.0.0"
+      }
+    },
+    "org.nuget.microsoft.bcl.timeprovider": {
+      "version": "file:org.nuget.microsoft.bcl.timeprovider-8.0.0.tgz",
+      "depth": 0,
+      "source": "local-tarball",
+      "dependencies": {
+        "org.nuget.microsoft.bcl.asyncinterfaces": "6.0.0"
+      }
+    },
+    "org.nuget.microsoft.codeanalysis.analyzers": {
+      "version": "file:org.nuget.microsoft.codeanalysis.analyzers-3.11.0.tgz",
+      "depth": 0,
+      "source": "local-tarball",
+      "dependencies": {}
+    },
+    "org.nuget.microsoft.codeanalysis.common": {
+      "version": "file:org.nuget.microsoft.codeanalysis.common-4.13.0.tgz",
+      "depth": 0,
+      "source": "local-tarball",
+      "dependencies": {
+        "org.nuget.microsoft.codeanalysis.analyzers": "3.11.0",
+        "org.nuget.system.collections.immutable": "8.0.0",
+        "org.nuget.system.memory": "4.5.5",
+        "org.nuget.system.reflection.metadata": "8.0.0",
+        "org.nuget.system.runtime.compilerservices.unsafe": "6.0.0",
+        "org.nuget.system.text.encoding.codepages": "7.0.0",
+        "org.nuget.system.threading.tasks.extensions": "4.5.4",
+        "org.nuget.system.buffers": "4.5.1",
+        "org.nuget.system.numerics.vectors": "4.5.0"
+      }
+    },
+    "org.nuget.microsoft.codeanalysis.csharp": {
+      "version": "file:org.nuget.microsoft.codeanalysis.csharp-4.13.0.tgz",
+      "depth": 0,
+      "source": "local-tarball",
+      "dependencies": {
+        "org.nuget.microsoft.codeanalysis.common": "4.13.0",
+        "org.nuget.microsoft.codeanalysis.analyzers": "3.11.0",
+        "org.nuget.system.buffers": "4.5.1",
+        "org.nuget.system.collections.immutable": "8.0.0",
+        "org.nuget.system.memory": "4.5.5",
+        "org.nuget.system.numerics.vectors": "4.5.0",
+        "org.nuget.system.reflection.metadata": "8.0.0",
+        "org.nuget.system.runtime.compilerservices.unsafe": "6.0.0",
+        "org.nuget.system.text.encoding.codepages": "7.0.0",
+        "org.nuget.system.threading.tasks.extensions": "4.5.4"
+      }
+    },
+    "org.nuget.microsoft.extensions.caching.abstractions": {
+      "version": "file:org.nuget.microsoft.extensions.caching.abstractions-9.0.4.tgz",
+      "depth": 0,
+      "source": "local-tarball",
+      "dependencies": {
+        "org.nuget.microsoft.extensions.primitives": "9.0.4",
+        "org.nuget.system.threading.tasks.extensions": "4.5.4"
+      }
+    },
+    "org.nuget.microsoft.extensions.configuration": {
+      "version": "file:org.nuget.microsoft.extensions.configuration-9.0.4.tgz",
+      "depth": 0,
+      "source": "local-tarball",
+      "dependencies": {
+        "org.nuget.microsoft.extensions.configuration.abstractions": "9.0.4",
+        "org.nuget.microsoft.extensions.primitives": "9.0.4"
+      }
+    },
+    "org.nuget.microsoft.extensions.configuration.abstractions": {
+      "version": "file:org.nuget.microsoft.extensions.configuration.abstractions-9.0.4.tgz",
+      "depth": 0,
+      "source": "local-tarball",
+      "dependencies": {
+        "org.nuget.microsoft.extensions.primitives": "9.0.4"
+      }
+    },
+    "org.nuget.microsoft.extensions.configuration.binder": {
+      "version": "file:org.nuget.microsoft.extensions.configuration.binder-9.0.4.tgz",
+      "depth": 0,
+      "source": "local-tarball",
+      "dependencies": {
+        "org.nuget.microsoft.extensions.configuration.abstractions": "9.0.4"
+      }
+    },
+    "org.nuget.microsoft.extensions.configuration.commandline": {
+      "version": "file:org.nuget.microsoft.extensions.configuration.commandline-9.0.4.tgz",
+      "depth": 0,
+      "source": "local-tarball",
+      "dependencies": {
+        "org.nuget.microsoft.extensions.configuration.abstractions": "9.0.4",
+        "org.nuget.microsoft.extensions.configuration": "9.0.4"
+      }
+    },
+    "org.nuget.microsoft.extensions.configuration.environmentvariables": {
+      "version": "file:org.nuget.microsoft.extensions.configuration.environmentvariables-9.0.4.tgz",
+      "depth": 0,
+      "source": "local-tarball",
+      "dependencies": {
+        "org.nuget.microsoft.extensions.configuration.abstractions": "9.0.4",
+        "org.nuget.microsoft.extensions.configuration": "9.0.4"
+      }
+    },
+    "org.nuget.microsoft.extensions.configuration.fileextensions": {
+      "version": "file:org.nuget.microsoft.extensions.configuration.fileextensions-9.0.4.tgz",
+      "depth": 0,
+      "source": "local-tarball",
+      "dependencies": {
+        "org.nuget.microsoft.extensions.configuration.abstractions": "9.0.4",
+        "org.nuget.microsoft.extensions.configuration": "9.0.4",
+        "org.nuget.microsoft.extensions.fileproviders.abstractions": "9.0.4",
+        "org.nuget.microsoft.extensions.fileproviders.physical": "9.0.4",
+        "org.nuget.microsoft.extensions.primitives": "9.0.4"
+      }
+    },
+    "org.nuget.microsoft.extensions.configuration.json": {
+      "version": "file:org.nuget.microsoft.extensions.configuration.json-9.0.4.tgz",
+      "depth": 0,
+      "source": "local-tarball",
+      "dependencies": {
+        "org.nuget.microsoft.extensions.configuration.abstractions": "9.0.4",
+        "org.nuget.microsoft.extensions.configuration.fileextensions": "9.0.4",
+        "org.nuget.microsoft.extensions.configuration": "9.0.4",
+        "org.nuget.microsoft.extensions.fileproviders.abstractions": "9.0.4",
+        "org.nuget.system.text.json": "9.0.4"
+      }
+    },
+    "org.nuget.microsoft.extensions.configuration.usersecrets": {
+      "version": "file:org.nuget.microsoft.extensions.configuration.usersecrets-9.0.4.tgz",
+      "depth": 0,
+      "source": "local-tarball",
+      "dependencies": {
+        "org.nuget.microsoft.extensions.configuration.abstractions": "9.0.4",
+        "org.nuget.microsoft.extensions.configuration.json": "9.0.4",
+        "org.nuget.microsoft.extensions.fileproviders.abstractions": "9.0.4",
+        "org.nuget.microsoft.extensions.fileproviders.physical": "9.0.4"
+      }
+    },
+    "org.nuget.microsoft.extensions.dependencyinjection": {
+      "version": "file:org.nuget.microsoft.extensions.dependencyinjection-9.0.4.tgz",
+      "depth": 0,
+      "source": "local-tarball",
+      "dependencies": {
+        "org.nuget.microsoft.bcl.asyncinterfaces": "9.0.4",
+        "org.nuget.microsoft.extensions.dependencyinjection.abstractions": "9.0.4",
+        "org.nuget.system.threading.tasks.extensions": "4.5.4"
+      }
+    },
+    "org.nuget.microsoft.extensions.dependencyinjection.abstractions": {
+      "version": "file:org.nuget.microsoft.extensions.dependencyinjection.abstractions-9.0.4.tgz",
+      "depth": 0,
+      "source": "local-tarball",
+      "dependencies": {
+        "org.nuget.microsoft.bcl.asyncinterfaces": "9.0.4",
+        "org.nuget.system.threading.tasks.extensions": "4.5.4"
+      }
+    },
+    "org.nuget.microsoft.extensions.diagnostics": {
+      "version": "file:org.nuget.microsoft.extensions.diagnostics-9.0.4.tgz",
+      "depth": 0,
+      "source": "local-tarball",
+      "dependencies": {
+        "org.nuget.microsoft.extensions.configuration": "9.0.4",
+        "org.nuget.microsoft.extensions.diagnostics.abstractions": "9.0.4",
+        "org.nuget.microsoft.extensions.options.configurationextensions": "9.0.4"
+      }
+    },
+    "org.nuget.microsoft.extensions.diagnostics.abstractions": {
+      "version": "file:org.nuget.microsoft.extensions.diagnostics.abstractions-9.0.4.tgz",
+      "depth": 0,
+      "source": "local-tarball",
+      "dependencies": {
+        "org.nuget.microsoft.extensions.dependencyinjection.abstractions": "9.0.4",
+        "org.nuget.microsoft.extensions.options": "9.0.4",
+        "org.nuget.system.diagnostics.diagnosticsource": "9.0.4",
+        "org.nuget.system.buffers": "4.5.1",
+        "org.nuget.system.memory": "4.5.5"
+      }
+    },
+    "org.nuget.microsoft.extensions.features": {
+      "version": "file:org.nuget.microsoft.extensions.features-9.0.4.tgz",
+      "depth": 0,
+      "source": "local-tarball",
+      "dependencies": {}
+    },
+    "org.nuget.microsoft.extensions.fileproviders.abstractions": {
+      "version": "file:org.nuget.microsoft.extensions.fileproviders.abstractions-9.0.4.tgz",
+      "depth": 0,
+      "source": "local-tarball",
+      "dependencies": {
+        "org.nuget.microsoft.extensions.primitives": "9.0.4"
+      }
+    },
+    "org.nuget.microsoft.extensions.fileproviders.physical": {
+      "version": "file:org.nuget.microsoft.extensions.fileproviders.physical-9.0.4.tgz",
+      "depth": 0,
+      "source": "local-tarball",
+      "dependencies": {
+        "org.nuget.microsoft.extensions.fileproviders.abstractions": "9.0.4",
+        "org.nuget.microsoft.extensions.filesystemglobbing": "9.0.4",
+        "org.nuget.microsoft.extensions.primitives": "9.0.4"
+      }
+    },
+    "org.nuget.microsoft.extensions.filesystemglobbing": {
+      "version": "file:org.nuget.microsoft.extensions.filesystemglobbing-9.0.4.tgz",
+      "depth": 0,
+      "source": "local-tarball",
+      "dependencies": {}
+    },
+    "org.nuget.microsoft.extensions.hosting": {
+      "version": "file:org.nuget.microsoft.extensions.hosting-9.0.4.tgz",
+      "depth": 0,
+      "source": "local-tarball",
+      "dependencies": {
+        "org.nuget.microsoft.bcl.asyncinterfaces": "9.0.4",
+        "org.nuget.microsoft.extensions.configuration.abstractions": "9.0.4",
+        "org.nuget.microsoft.extensions.configuration.binder": "9.0.4",
+        "org.nuget.microsoft.extensions.configuration.commandline": "9.0.4",
+        "org.nuget.microsoft.extensions.configuration.environmentvariables": "9.0.4",
+        "org.nuget.microsoft.extensions.configuration.fileextensions": "9.0.4",
+        "org.nuget.microsoft.extensions.configuration.json": "9.0.4",
+        "org.nuget.microsoft.extensions.configuration.usersecrets": "9.0.4",
+        "org.nuget.microsoft.extensions.configuration": "9.0.4",
+        "org.nuget.microsoft.extensions.dependencyinjection.abstractions": "9.0.4",
+        "org.nuget.microsoft.extensions.dependencyinjection": "9.0.4",
+        "org.nuget.microsoft.extensions.diagnostics": "9.0.4",
+        "org.nuget.microsoft.extensions.fileproviders.abstractions": "9.0.4",
+        "org.nuget.microsoft.extensions.fileproviders.physical": "9.0.4",
+        "org.nuget.microsoft.extensions.hosting.abstractions": "9.0.4",
+        "org.nuget.microsoft.extensions.logging.abstractions": "9.0.4",
+        "org.nuget.microsoft.extensions.logging.configuration": "9.0.4",
+        "org.nuget.microsoft.extensions.logging.console": "9.0.4",
+        "org.nuget.microsoft.extensions.logging.debug": "9.0.4",
+        "org.nuget.microsoft.extensions.logging.eventlog": "9.0.4",
+        "org.nuget.microsoft.extensions.logging.eventsource": "9.0.4",
+        "org.nuget.microsoft.extensions.logging": "9.0.4",
+        "org.nuget.microsoft.extensions.options": "9.0.4",
+        "org.nuget.system.threading.tasks.extensions": "4.5.4"
+      }
+    },
+    "org.nuget.microsoft.extensions.hosting.abstractions": {
+      "version": "file:org.nuget.microsoft.extensions.hosting.abstractions-9.0.4.tgz",
+      "depth": 0,
+      "source": "local-tarball",
+      "dependencies": {
+        "org.nuget.microsoft.bcl.asyncinterfaces": "9.0.4",
+        "org.nuget.microsoft.extensions.configuration.abstractions": "9.0.4",
+        "org.nuget.microsoft.extensions.dependencyinjection.abstractions": "9.0.4",
+        "org.nuget.microsoft.extensions.diagnostics.abstractions": "9.0.4",
+        "org.nuget.microsoft.extensions.fileproviders.abstractions": "9.0.4",
+        "org.nuget.microsoft.extensions.logging.abstractions": "9.0.4",
+        "org.nuget.system.threading.tasks.extensions": "4.5.4"
+      }
+    },
+    "org.nuget.microsoft.extensions.logging": {
+      "version": "file:org.nuget.microsoft.extensions.logging-9.0.4.tgz",
+      "depth": 0,
+      "source": "local-tarball",
+      "dependencies": {
+        "org.nuget.microsoft.bcl.asyncinterfaces": "9.0.4",
+        "org.nuget.microsoft.extensions.dependencyinjection": "9.0.4",
+        "org.nuget.microsoft.extensions.logging.abstractions": "9.0.4",
+        "org.nuget.microsoft.extensions.options": "9.0.4",
+        "org.nuget.system.diagnostics.diagnosticsource": "9.0.4"
+      }
+    },
+    "org.nuget.microsoft.extensions.logging.abstractions": {
+      "version": "file:org.nuget.microsoft.extensions.logging.abstractions-9.0.4.tgz",
+      "depth": 0,
+      "source": "local-tarball",
+      "dependencies": {
+        "org.nuget.microsoft.extensions.dependencyinjection.abstractions": "9.0.4",
+        "org.nuget.system.diagnostics.diagnosticsource": "9.0.4",
+        "org.nuget.system.buffers": "4.5.1",
+        "org.nuget.system.memory": "4.5.5"
+      }
+    },
+    "org.nuget.microsoft.extensions.logging.configuration": {
+      "version": "file:org.nuget.microsoft.extensions.logging.configuration-9.0.4.tgz",
+      "depth": 0,
+      "source": "local-tarball",
+      "dependencies": {
+        "org.nuget.microsoft.extensions.configuration.abstractions": "9.0.4",
+        "org.nuget.microsoft.extensions.configuration.binder": "9.0.4",
+        "org.nuget.microsoft.extensions.configuration": "9.0.4",
+        "org.nuget.microsoft.extensions.dependencyinjection.abstractions": "9.0.4",
+        "org.nuget.microsoft.extensions.logging.abstractions": "9.0.4",
+        "org.nuget.microsoft.extensions.logging": "9.0.4",
+        "org.nuget.microsoft.extensions.options.configurationextensions": "9.0.4",
+        "org.nuget.microsoft.extensions.options": "9.0.4"
+      }
+    },
+    "org.nuget.microsoft.extensions.logging.console": {
+      "version": "file:org.nuget.microsoft.extensions.logging.console-9.0.4.tgz",
+      "depth": 0,
+      "source": "local-tarball",
+      "dependencies": {
+        "org.nuget.microsoft.bcl.asyncinterfaces": "9.0.4",
+        "org.nuget.microsoft.extensions.dependencyinjection.abstractions": "9.0.4",
+        "org.nuget.microsoft.extensions.logging.abstractions": "9.0.4",
+        "org.nuget.microsoft.extensions.logging.configuration": "9.0.4",
+        "org.nuget.microsoft.extensions.logging": "9.0.4",
+        "org.nuget.microsoft.extensions.options": "9.0.4",
+        "org.nuget.system.text.json": "9.0.4",
+        "org.nuget.system.buffers": "4.5.1"
+      }
+    },
+    "org.nuget.microsoft.extensions.logging.debug": {
+      "version": "file:org.nuget.microsoft.extensions.logging.debug-9.0.4.tgz",
+      "depth": 0,
+      "source": "local-tarball",
+      "dependencies": {
+        "org.nuget.microsoft.extensions.dependencyinjection.abstractions": "9.0.4",
+        "org.nuget.microsoft.extensions.logging.abstractions": "9.0.4",
+        "org.nuget.microsoft.extensions.logging": "9.0.4"
+      }
+    },
+    "org.nuget.microsoft.extensions.logging.eventlog": {
+      "version": "file:org.nuget.microsoft.extensions.logging.eventlog-9.0.4.tgz",
+      "depth": 0,
+      "source": "local-tarball",
+      "dependencies": {
+        "org.nuget.microsoft.extensions.dependencyinjection.abstractions": "9.0.4",
+        "org.nuget.microsoft.extensions.logging.abstractions": "9.0.4",
+        "org.nuget.microsoft.extensions.logging": "9.0.4",
+        "org.nuget.microsoft.extensions.options": "9.0.4",
+        "org.nuget.system.diagnostics.eventlog": "9.0.4"
+      }
+    },
+    "org.nuget.microsoft.extensions.logging.eventsource": {
+      "version": "file:org.nuget.microsoft.extensions.logging.eventsource-9.0.4.tgz",
+      "depth": 0,
+      "source": "local-tarball",
+      "dependencies": {
+        "org.nuget.microsoft.bcl.asyncinterfaces": "9.0.4",
+        "org.nuget.microsoft.extensions.dependencyinjection.abstractions": "9.0.4",
+        "org.nuget.microsoft.extensions.logging.abstractions": "9.0.4",
+        "org.nuget.microsoft.extensions.logging": "9.0.4",
+        "org.nuget.microsoft.extensions.options": "9.0.4",
+        "org.nuget.microsoft.extensions.primitives": "9.0.4",
+        "org.nuget.system.text.json": "9.0.4",
+        "org.nuget.system.memory": "4.5.5",
+        "org.nuget.system.runtime.compilerservices.unsafe": "6.0.0"
+      }
+    },
+    "org.nuget.microsoft.extensions.options": {
+      "version": "file:org.nuget.microsoft.extensions.options-9.0.4.tgz",
+      "depth": 0,
+      "source": "local-tarball",
+      "dependencies": {
+        "org.nuget.microsoft.extensions.dependencyinjection.abstractions": "9.0.4",
+        "org.nuget.microsoft.extensions.primitives": "9.0.4",
+        "org.nuget.system.componentmodel.annotations": "5.0.0"
+      }
+    },
+    "org.nuget.microsoft.extensions.options.configurationextensions": {
+      "version": "file:org.nuget.microsoft.extensions.options.configurationextensions-9.0.4.tgz",
+      "depth": 0,
+      "source": "local-tarball",
+      "dependencies": {
+        "org.nuget.microsoft.extensions.configuration.abstractions": "9.0.4",
+        "org.nuget.microsoft.extensions.configuration.binder": "9.0.4",
+        "org.nuget.microsoft.extensions.dependencyinjection.abstractions": "9.0.4",
+        "org.nuget.microsoft.extensions.options": "9.0.4",
+        "org.nuget.microsoft.extensions.primitives": "9.0.4"
+      }
+    },
+    "org.nuget.microsoft.extensions.primitives": {
+      "version": "file:org.nuget.microsoft.extensions.primitives-9.0.4.tgz",
+      "depth": 0,
+      "source": "local-tarball",
+      "dependencies": {
+        "org.nuget.system.memory": "4.5.5",
+        "org.nuget.system.runtime.compilerservices.unsafe": "6.0.0"
+      }
+    },
+    "org.nuget.r3": {
+      "version": "file:org.nuget.r3-1.3.0.tgz",
+      "depth": 0,
+      "source": "local-tarball",
+      "dependencies": {
+        "org.nuget.microsoft.bcl.timeprovider": "8.0.0",
+        "org.nuget.system.buffers": "4.5.1",
+        "org.nuget.system.componentmodel.annotations": "5.0.0",
+        "org.nuget.system.memory": "4.5.5",
+        "org.nuget.system.runtime.compilerservices.unsafe": "6.0.0",
+        "org.nuget.system.threading.channels": "8.0.0"
+      }
+    },
+    "org.nuget.system.buffers": {
+      "version": "file:org.nuget.system.buffers-4.5.1.tgz",
+      "depth": 0,
+      "source": "local-tarball",
+      "dependencies": {}
+    },
+    "org.nuget.system.collections.immutable": {
+      "version": "file:org.nuget.system.collections.immutable-8.0.0.tgz",
+      "depth": 0,
+      "source": "local-tarball",
+      "dependencies": {
+        "org.nuget.system.memory": "4.5.5",
+        "org.nuget.system.runtime.compilerservices.unsafe": "6.0.0"
+      }
+    },
+    "org.nuget.system.componentmodel.annotations": {
+      "version": "file:org.nuget.system.componentmodel.annotations-5.0.0.tgz",
+      "depth": 0,
+      "source": "local-tarball",
+      "dependencies": {}
+    },
+    "org.nuget.system.diagnostics.diagnosticsource": {
+      "version": "file:org.nuget.system.diagnostics.diagnosticsource-9.0.4.tgz",
+      "depth": 0,
+      "source": "local-tarball",
+      "dependencies": {
+        "org.nuget.system.memory": "4.5.5",
+        "org.nuget.system.runtime.compilerservices.unsafe": "6.0.0"
+      }
+    },
+    "org.nuget.system.diagnostics.eventlog": {
+      "version": "file:org.nuget.system.diagnostics.eventlog-9.0.4.tgz",
+      "depth": 0,
+      "source": "local-tarball",
+      "dependencies": {
+        "org.nuget.system.security.principal.windows": "5.0.0"
+      }
+    },
+    "org.nuget.system.io.pipelines": {
+      "version": "file:org.nuget.system.io.pipelines-9.0.4.tgz",
+      "depth": 0,
+      "source": "local-tarball",
+      "dependencies": {
+        "org.nuget.system.buffers": "4.5.1",
+        "org.nuget.system.memory": "4.5.5",
+        "org.nuget.system.threading.tasks.extensions": "4.5.4"
+      }
+    },
+    "org.nuget.system.memory": {
+      "version": "file:org.nuget.system.memory-4.5.5.tgz",
+      "depth": 0,
+      "source": "local-tarball",
+      "dependencies": {
+        "org.nuget.system.buffers": "4.5.1",
+        "org.nuget.system.numerics.vectors": "4.4.0",
+        "org.nuget.system.runtime.compilerservices.unsafe": "4.5.3"
+      }
+    },
+    "org.nuget.system.net.serversentevents": {
+      "version": "file:org.nuget.system.net.serversentevents-9.0.4.tgz",
+      "depth": 0,
+      "source": "local-tarball",
+      "dependencies": {
+        "org.nuget.microsoft.bcl.asyncinterfaces": "9.0.4",
+        "org.nuget.system.memory": "4.5.5",
+        "org.nuget.system.threading.tasks.extensions": "4.5.4"
+      }
+    },
+    "org.nuget.system.numerics.vectors": {
+      "version": "file:org.nuget.system.numerics.vectors-4.5.0.tgz",
+      "depth": 0,
+      "source": "local-tarball",
+      "dependencies": {}
+    },
+    "org.nuget.system.reflection.metadata": {
+      "version": "file:org.nuget.system.reflection.metadata-8.0.0.tgz",
+      "depth": 0,
+      "source": "local-tarball",
+      "dependencies": {
+        "org.nuget.system.collections.immutable": "8.0.0",
+        "org.nuget.system.memory": "4.5.5"
+      }
+    },
+    "org.nuget.system.runtime.compilerservices.unsafe": {
+      "version": "file:org.nuget.system.runtime.compilerservices.unsafe-6.0.0.tgz",
+      "depth": 0,
+      "source": "local-tarball",
+      "dependencies": {}
+    },
+    "org.nuget.system.security.principal.windows": {
+      "version": "file:org.nuget.system.security.principal.windows-5.0.0.tgz",
+      "depth": 0,
+      "source": "local-tarball",
+      "dependencies": {}
+    },
+    "org.nuget.system.text.encoding.codepages": {
+      "version": "file:org.nuget.system.text.encoding.codepages-7.0.0.tgz",
+      "depth": 0,
+      "source": "local-tarball",
+      "dependencies": {
+        "org.nuget.system.memory": "4.5.5",
+        "org.nuget.system.runtime.compilerservices.unsafe": "6.0.0"
+      }
+    },
+    "org.nuget.system.text.encodings.web": {
+      "version": "file:org.nuget.system.text.encodings.web-9.0.4.tgz",
+      "depth": 0,
+      "source": "local-tarball",
+      "dependencies": {
+        "org.nuget.system.buffers": "4.5.1",
+        "org.nuget.system.memory": "4.5.5",
+        "org.nuget.system.runtime.compilerservices.unsafe": "6.0.0"
+      }
+    },
+    "org.nuget.system.text.json": {
+      "version": "file:org.nuget.system.text.json-9.0.4.tgz",
+      "depth": 0,
+      "source": "local-tarball",
+      "dependencies": {
+        "org.nuget.microsoft.bcl.asyncinterfaces": "9.0.4",
+        "org.nuget.system.io.pipelines": "9.0.4",
+        "org.nuget.system.text.encodings.web": "9.0.4",
+        "org.nuget.system.buffers": "4.5.1",
+        "org.nuget.system.memory": "4.5.5",
+        "org.nuget.system.runtime.compilerservices.unsafe": "6.0.0",
+        "org.nuget.system.threading.tasks.extensions": "4.5.4"
+      }
+    },
+    "org.nuget.system.threading.channels": {
+      "version": "file:org.nuget.system.threading.channels-8.0.0.tgz",
+      "depth": 0,
+      "source": "local-tarball",
+      "dependencies": {
+        "org.nuget.system.threading.tasks.extensions": "4.5.4"
+      }
+    },
+    "org.nuget.system.threading.tasks.extensions": {
+      "version": "file:org.nuget.system.threading.tasks.extensions-4.5.4.tgz",
+      "depth": 0,
+      "source": "local-tarball",
+      "dependencies": {
+        "org.nuget.system.runtime.compilerservices.unsafe": "4.5.3"
+      }
+    },
+    "com.unity.modules.accessibility": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {}
+    },
+    "com.unity.modules.adaptiveperformance": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {
+        "com.unity.modules.subsystems": "1.0.0"
+      }
+    },
+    "com.unity.modules.ai": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {}
+    },
+    "com.unity.modules.androidjni": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {}
+    },
+    "com.unity.modules.animation": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {}
+    },
+    "com.unity.modules.assetbundle": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {}
+    },
+    "com.unity.modules.audio": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {}
+    },
+    "com.unity.modules.cloth": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {
+        "com.unity.modules.physics": "1.0.0"
+      }
+    },
+    "com.unity.modules.director": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {
+        "com.unity.modules.audio": "1.0.0",
+        "com.unity.modules.animation": "1.0.0"
+      }
+    },
+    "com.unity.modules.hierarchycore": {
+      "version": "1.0.0",
+      "depth": 1,
+      "source": "builtin",
+      "dependencies": {}
+    },
+    "com.unity.modules.imageconversion": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {}
+    },
+    "com.unity.modules.imgui": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {}
+    },
+    "com.unity.modules.jsonserialize": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {}
+    },
+    "com.unity.modules.particlesystem": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {}
+    },
+    "com.unity.modules.physics": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {}
+    },
+    "com.unity.modules.physics2d": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {}
+    },
+    "com.unity.modules.screencapture": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {
+        "com.unity.modules.imageconversion": "1.0.0"
+      }
+    },
+    "com.unity.modules.subsystems": {
+      "version": "1.0.0",
+      "depth": 1,
+      "source": "builtin",
+      "dependencies": {
+        "com.unity.modules.jsonserialize": "1.0.0"
+      }
+    },
+    "com.unity.modules.terrain": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {}
+    },
+    "com.unity.modules.terrainphysics": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {
+        "com.unity.modules.physics": "1.0.0",
+        "com.unity.modules.terrain": "1.0.0"
+      }
+    },
+    "com.unity.modules.tilemap": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {
+        "com.unity.modules.physics2d": "1.0.0"
+      }
+    },
+    "com.unity.modules.ui": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {}
+    },
+    "com.unity.modules.uielements": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {
+        "com.unity.modules.ui": "1.0.0",
+        "com.unity.modules.imgui": "1.0.0",
+        "com.unity.modules.jsonserialize": "1.0.0",
+        "com.unity.modules.hierarchycore": "1.0.0",
+        "com.unity.modules.physics": "1.0.0"
+      }
+    },
+    "com.unity.modules.umbra": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {}
+    },
+    "com.unity.modules.unityanalytics": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {
+        "com.unity.modules.unitywebrequest": "1.0.0",
+        "com.unity.modules.jsonserialize": "1.0.0"
+      }
+    },
+    "com.unity.modules.unitywebrequest": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {}
+    },
+    "com.unity.modules.unitywebrequestassetbundle": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {
+        "com.unity.modules.assetbundle": "1.0.0",
+        "com.unity.modules.unitywebrequest": "1.0.0"
+      }
+    },
+    "com.unity.modules.unitywebrequestaudio": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {
+        "com.unity.modules.unitywebrequest": "1.0.0",
+        "com.unity.modules.audio": "1.0.0"
+      }
+    },
+    "com.unity.modules.unitywebrequesttexture": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {
+        "com.unity.modules.unitywebrequest": "1.0.0",
+        "com.unity.modules.imageconversion": "1.0.0"
+      }
+    },
+    "com.unity.modules.unitywebrequestwww": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {
+        "com.unity.modules.unitywebrequest": "1.0.0",
+        "com.unity.modules.unitywebrequestassetbundle": "1.0.0",
+        "com.unity.modules.unitywebrequestaudio": "1.0.0",
+        "com.unity.modules.audio": "1.0.0",
+        "com.unity.modules.assetbundle": "1.0.0",
+        "com.unity.modules.imageconversion": "1.0.0"
+      }
+    },
+    "com.unity.modules.vectorgraphics": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {
+        "com.unity.modules.uielements": "1.0.0",
+        "com.unity.modules.imageconversion": "1.0.0",
+        "com.unity.modules.imgui": "1.0.0"
+      }
+    },
+    "com.unity.modules.vehicles": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {
+        "com.unity.modules.physics": "1.0.0"
+      }
+    },
+    "com.unity.modules.video": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {
+        "com.unity.modules.audio": "1.0.0",
+        "com.unity.modules.ui": "1.0.0",
+        "com.unity.modules.unitywebrequest": "1.0.0"
+      }
+    },
+    "com.unity.modules.vr": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {
+        "com.unity.modules.jsonserialize": "1.0.0",
+        "com.unity.modules.physics": "1.0.0",
+        "com.unity.modules.xr": "1.0.0"
+      }
+    },
+    "com.unity.modules.wind": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {}
+    },
+    "com.unity.modules.xr": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {
+        "com.unity.modules.physics": "1.0.0",
+        "com.unity.modules.jsonserialize": "1.0.0",
+        "com.unity.modules.subsystems": "1.0.0"
+      }
+    }
+  }
+}

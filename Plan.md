@@ -1,0 +1,7 @@
+- **COMPLETED**: Mesh-based colliders (no primitive cubes caps) + doorway gap in walls (id: 1)
+- **COMPLETED**: Player cashier mode + IInteractable workstation + Proximity doors (id: 2)
+- **COMPLETED**: NpcSpawner merchant prefab + simple locomotion visual (id: 3)
+- **CANCELLED**: Editor Rebuild wizard + skyline/bounds wiring + Bootstrap menu (id: 4)
+- **COMPLETED**: Система инвентаря (переноска одной коробки/предмета, визуализация в руках) (id: 5)
+- **COMPLETED**: Автоматическое удаление старого игрока и спавн еды при пересборке (id: 6)
+- **COMPLETED**: Создание зоны доставки (красный круг) и терминала для заказа еды (id: 7)

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" role="img" aria-label="Merchandiser Simulator">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b1026"/>
+      <stop offset="35%" stop-color="#1e1b4b"/>
+      <stop offset="70%" stop-color="#0f766e"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.04"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="420" fill="url(#sky)"/>
+  <circle cx="180" cy="90" r="120" fill="#8b5cf6" opacity="0.25"/>
+  <circle cx="1040" cy="70" r="100" fill="#22d3ee" opacity="0.22"/>
+  <circle cx="980" cy="340" r="130" fill="#fbbf24" opacity="0.18"/>
+  <path d="M0 300 Q300 250 600 290 T1200 280 L1200 420 L0 420 Z" fill="#0f172a" opacity="0.55"/>
+  <rect x="70" y="70" width="1060" height="280" rx="32" fill="url(#glass)" stroke="#ffffff" stroke-opacity="0.18"/>
+  <text x="110" y="155" fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="48" font-weight="900">Merchandiser Simulator</text>
+  <rect x="110" y="235" width="150" height="40" rx="20" fill="#7c3aed"/>
+  <text x="185" y="261" text-anchor="middle" fill="#fff" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="800">ORDER</text>
+  <rect x="280" y="235" width="150" height="40" rx="20" fill="#0891b2"/>
+  <text x="355" y="261" text-anchor="middle" fill="#fff" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="800">STOCK</text>
+  <rect x="450" y="235" width="150" height="40" rx="20" fill="#059669"/>
+  <text x="525" y="261" text-anchor="middle" fill="#fff" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="800">SELL</text>
+  <rect x="620" y="235" width="170" height="40" rx="20" fill="#ea580c"/>
+  <text x="705" y="261" text-anchor="middle" fill="#fff" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="800">NPC CASHIER</text>
+</svg>
